@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.mainTxt {
+    position: absolute;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+}
