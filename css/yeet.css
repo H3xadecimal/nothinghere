@@ -1,9 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-.mainTxt {
-    position: absolute;
+.containHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
+.headerTxt {
     font-family: Roboto;
     font-style: normal;
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.headerSubTxt {
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: small;
+    opacity: 50%;
 }
